@@ -2,7 +2,7 @@
   -webkit-tap-highlight-color: transparent;
   --bg--text_lock_screen: "";
   --bg--color_text_lock_screen: #ffffff;
-  --bg--size_width_phone: 100%;
+  --bg--size_width_phone: 330px;
   --bg--size_height_phone: 700px;
   --bg--border_radius_phone: 50px;
   --bg--scale_phone: 1;
@@ -242,23 +242,23 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .box1 {
-  --bg--originos: url("originos_data/system_calculator.png");
+  --bg--originos: url("originos_data/system_dialer.png");
   left: 10%;
 }
 .box2 {
-  --bg--originos: url("originos_data/system_filemanager.png");
+  --bg--originos: url("originos_data/system_messages.png");
   left: 30.5%;
 }
 .box3 {
-  --bg--originos: url("originos_data/system_music.png");
-  right: 30.5%;
-}
-.box4 {
   --bg--originos: url("originos_data/system_settings.png");
   right: 10%;
 }
+.box4 {
+  --bg--originos: url("originos_data/system_music.png");
+  right: 30.5%;
+}
 .box5 {
-  --bg--originos: url("originos_data/system_messages.png");
+  --bg--originos: url("originos_data/system_filemanager.png");
   right: 10%;
 }
 .box6 {
@@ -270,7 +270,7 @@ body::-webkit-scrollbar-thumb:hover {
   left: 30.5%;
 }
 .box8 {
-  --bg--originos: url("originos_data/system_dialer.png");
+  --bg--originos: url("originos_data/system_calculator.png");
   left: 10%;
 }
 .box9 {
@@ -463,13 +463,13 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .box1,
 .clicke1 {
-  top: 602px;
+  top: 490px;
   left: 10%;
 }
 .box2,
 .clicke2 {
-  top: 605px;
-  left: 30.5%;
+ top: 490%;
+ right: 10%; 
 }
 .box3,
 .clicke3 {
@@ -483,8 +483,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .box5,
 .clicke5 {
-  top: 490px;
-  right: 10%;
+  top: 605px;
+  right: 30.5%;
 }
 .box6,
 .clicke6 {
@@ -498,8 +498,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .box8,
 .clicke8 {
-  top: 490px;
-  left: 10%;
+ top: 602px;
+ left: 10%;
 }
 .box9,
 .clicke9 {
